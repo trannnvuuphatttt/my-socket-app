@@ -1,7 +1,7 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
-
+  target: [ 'static' , 'server' ],// Đảm bảo bạn đang sử dụng target 'server'
+  buildDir: '.nuxt',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'my-socket-app',
